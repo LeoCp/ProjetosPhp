@@ -1,8 +1,8 @@
 <?php
 
-public class Livro{
+class Livro{
  
- function insetLivro($nomeLivro,$autorLivro,$paginasLivro,$estadoLivro){
+public function insetLivro($nomeLivro,$autorLivro,$paginasLivro,$estadoLivro){
   
   $insertLivro = $pdo->prepare("insert into livro (nomeLivro,autorLivro,paginasLivro,estadoLivro) values
   (:nomeLivro,:autorLivro,:paginasLivro,:estadoLivro)");
