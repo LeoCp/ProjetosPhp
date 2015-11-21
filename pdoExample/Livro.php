@@ -1,7 +1,6 @@
 <?php
 
-include 'conec.php';
-class Livro{
+public class Livro{
  
  function insetLivro($nomeLivro,$autorLivro,$paginasLivro,$estadoLivro){
   
