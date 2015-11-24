@@ -1,5 +1,5 @@
 <?php
-
+include 'conect.php';
 
  
 public function insetLivro($nomeLivro,$autorLivro,$paginasLivro,$estadoLivro){
