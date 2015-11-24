@@ -1,6 +1,6 @@
 <?php
 
-class Livro{
+
  
 public function insetLivro($nomeLivro,$autorLivro,$paginasLivro,$estadoLivro){
   
@@ -13,6 +13,9 @@ public function insetLivro($nomeLivro,$autorLivro,$paginasLivro,$estadoLivro){
    $insertLivro->bindValue(":estadoLivro",$estadoLivro);
     
  }
+
+public function selectLivro(){
+ /*code*/
 }
 
 ?>
